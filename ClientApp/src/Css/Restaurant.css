@@ -1,0 +1,13 @@
+.card-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.loading-spinner{
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
