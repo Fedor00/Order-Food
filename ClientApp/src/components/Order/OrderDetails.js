@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Card, CardBody, CardTitle, CardText, Spinner } from "reactstrap";
 import { fetchOrderByCode, fetchRestaurantById } from "../../Api/Api";
 import { useParams } from "react-router-dom";
+import "../../Css/Restaurant.css";
 
 const OrderDetails = () => {
   const [order, setOrder] = useState(null);
